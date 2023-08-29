@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "build", // Setze das Build-Output-Verzeichnis auf "build"
+    outDir: "build", // Hier wird das Build-Output-Verzeichnis auf "build" gesetzt
   },
   base: "/vite-deploy/",
 });
