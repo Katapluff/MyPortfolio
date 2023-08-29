@@ -7,5 +7,4 @@ export default defineConfig({
   build: {
     outDir: "build", // Hier wird das Build-Output-Verzeichnis auf "build" gesetzt
   },
-  base: "/vite-deploy/",
 });
